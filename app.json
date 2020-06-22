@@ -5,6 +5,10 @@
     "orientation": "portrait",
     "splash": {
       "image": "./img/splash.png"
-    }
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "assetBundlePatterns": ["**/*"]
   }
 }
